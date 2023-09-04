@@ -29,7 +29,7 @@ $breakpoints-up: (
 };
 
 // BUTTONS Mixin -------------------------------------
-%ctaBtn {
+@mixin ctaBtn {
     display: flex;
     justify-content: center;
     color: $color-white;

@@ -20,8 +20,3 @@ Change screen
                     "you've selected rating" paragraph/btn
                     Heading
                     paragraph
-
-       
-
-Need to fix
-    Figure out font sizing for paragraph
