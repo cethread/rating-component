@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: rgb(4, 4, 4);
+}
+body .rating-card {
+  background-color: hsl(216, 12%, 8%);
+  margin: 5rem auto;
+  padding: 2.125rem;
+  border-radius: 0.9375rem;
+  width: min(100% - 3.125rem, 25.875rem);
+}
+body .rating-card__star-icon {
+  margin-bottom: 2.4375rem;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50rem;
+  padding: 0.8125rem;
+}
+body .rating-card__h1 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1.6875rem;
+  font-size: 1.75rem;
+}
+body .rating-card__p {
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 2.1875rem;
+  font-size: 0.9375rem;
+}
+body .rating-card a {
+  display: flex;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 100rem;
+  padding: 0.8rem 0;
+}
+body .rating-card a:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+body .rating-card__rating-container {
+  display: flex;
+  margin-bottom: 2.2125rem;
+  justify-content: space-between;
+}
+body .rating-card__rating-container a {
+  display: flex;
+  justify-content: center;
+  border-radius: 100rem;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(216, 12%, 54%);
+  padding: 1.125rem;
+}
+body .rating-card__rating-container a:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+body .rating-card__rating-container a:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: rgb(4, 4, 4);
+  text-align: center;
+}
+body .thank-you-card {
+  background-color: hsl(216, 12%, 8%);
+  margin: 5rem auto;
+  padding: 2.125rem;
+  border-radius: 0.9375rem;
+  width: min(100% - 3.125rem, 25.875rem);
+}
+body .thank-you-card__img-container {
+  display: flex;
+  justify-content: center;
+}
+body .thank-you-card__img-container img {
+  margin: 0 0 2.7rem 0;
+}
+body .thank-you-card__h1 {
+  color: hsl(0, 0%, 100%);
+  margin: 1.9375rem 0 1.6875rem 0;
+  font-size: 1.75rem;
+}
+body .thank-you-card__p {
+  color: hsl(216, 12%, 54%);
+  font-size: 0.9375rem;
+  margin-bottom: 2.1875rem;
+}
+body .thank-you-card__text {
+  border-radius: 100rem;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+body .thank-you-card__btn {
+  display: flex;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 100rem;
+  padding: 0.8rem 0;
+}
+body .thank-you-card__btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}/*# sourceMappingURL=styles.css.map */

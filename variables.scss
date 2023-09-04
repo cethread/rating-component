@@ -1,0 +1,61 @@
+// COLORS-----------------------------
+$color-orange : hsl(25, 97%, 53%);
+$color-white: hsl(0, 0%, 100%);
+$color-light-grey: hsl(217, 12%, 63%);
+$color-medium-grey: hsl(216, 12%, 54%);
+$color-dark-blue: hsl(213, 19%, 18%);
+$color-darker-blue: hsl(216, 12%, 8%);
+
+// FONTS ----------------------
+$font-main: 'Overpass', sans-serif;
+// Font weights
+$font-bold: 400;
+$font-bolder: 700;
+// Font size
+$font-size-p: 0.9375rem;
+
+// MEDIA QUERIES------------------------------
+// media queries
+// Mobile: 375px
+// - Desktop: 1440px
+$breakpoints-up: (
+    "small": 12.5em,
+    "large":  90em
+);
+@mixin breakpoint ($value) {
+    @media screen and (min-width: map-get($breakpoints-up, $value)) {
+        @content;
+    }
+};
+
+// BUTTONS Mixin -------------------------------------
+%ctaBtn {
+    display: flex;
+    justify-content: center;
+    color: $color-white;
+    background-color: $color-orange;
+    border-radius: 100rem;
+    padding: 0.8rem 0;
+    
+}
+
+@mixin ratingBtn () {
+    display: flex;
+    justify-content: center;
+    border-radius: 100rem;
+    background-color: $color-dark-blue;
+    color: $color-medium-grey;
+    padding: 1.125rem;
+}
+
+@mixin selectedRatingBtn () {
+    // display: flex;
+    // justify-content: center;
+    border-radius: 100rem;
+    background-color: $color-dark-blue;
+    color: $color-orange;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    // margin: 0 0 1.9375rem 0;
+    display: inline-block;
+}

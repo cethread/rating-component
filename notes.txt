@@ -1,0 +1,27 @@
+Mobile and desktop designs are the same
+    Larger font size for mobile
+
+media queries
+    mobile
+        larger paragraph
+        full container width----------
+        1.5625rem spacing on both sides of container---------
+
+active state
+    rating hover------------
+    submit hover----------
+
+Change screen
+    - Select number and submit a number rating
+        - Number is attatched to certain html content
+            >>View "Thank you" card/ switch html content based on number pressed 
+                >Append 
+                    graphic
+                    "you've selected rating" paragraph/btn
+                    Heading
+                    paragraph
+
+       
+
+Need to fix
+    Figure out font sizing for paragraph
